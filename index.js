@@ -46,7 +46,7 @@ app.use(imgRoutes);
 app.use(userRoutes);
 app.use(paymentRoutes);
 
-app.listen (PORT)
+app.listen (7000)
 console.log('runing in port ' + PORT);
 
 export { transporter };
